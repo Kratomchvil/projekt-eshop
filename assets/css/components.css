@@ -1,0 +1,19 @@
+@import url('variables.css');
+
+.card{ background:linear-gradient(180deg,var(--card), rgba(11,18,32,0.95)); padding:1rem; border-radius:var(--radius); box-shadow:var(--shadow); }
+.card .title{ font-weight:600; color:var(--text); margin:0 0 0.25rem }
+.card .muted{ color:var(--muted); font-size:0.95rem }
+
+.btn{ display:inline-flex; align-items:center; gap:0.5rem; border:0; padding:0.6rem 1rem; border-radius:8px; cursor:pointer }
+.btn-primary{ background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:#081122 }
+.btn-ghost{ background:transparent; border:1px solid rgba(255,255,255,0.04); color:var(--text) }
+
+.product-card{ display:flex; flex-direction:column; gap:0.5rem }
+.product-card .thumb{ border-radius:8px; overflow:hidden; background:var(--glass) }
+.price{ font-weight:700; color:var(--accent) }
+
+.cart-summary{ background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.02)); padding:1rem; border-radius:10px }
+
+form.input-row{ display:flex; flex-direction:column; gap:0.5rem }
+label{ font-size:0.9rem }
+input,select,textarea{ background:transparent; border:1px solid rgba(255,255,255,0.06); padding:0.6rem 0.7rem; border-radius:8px; color:var(--text) }

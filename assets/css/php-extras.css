@@ -1,0 +1,44 @@
+/* Doplnění stylů pro PHP fázi – formuláře, validace, košík, 404 */
+
+.input-row label {
+    display: block;
+    margin-bottom: 0.6rem;
+}
+.input-row input,
+.input-row select,
+.input-row textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+}
+.input-row textarea { min-height: 80px; }
+
+.input--error {
+    border-color: #d04545 !important;
+    background: rgba(208, 69, 69, 0.06);
+}
+
+.error {
+    color: #ff7777;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+.flash {
+    background: #264a26;
+    color: #d8f5d8;
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    margin: 0.5rem 0;
+}
+
+.cart-summary { padding: 1rem; }
+
+.product-detail img { max-width: 100%; height: auto; }
+
+table { color: inherit; }
+th, td { vertical-align: middle; }

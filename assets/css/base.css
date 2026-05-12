@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('variables.css');
+
+* { box-sizing: border-box; }
+html,body{ height:100%; }
+body{
+  margin:0; background:var(--bg); color:var(--text); font-family:var(--font-sans); -webkit-font-smoothing:antialiased;
+  line-height:1.4; -webkit-tap-highlight-color:transparent;
+}
+
+a{ color:var(--accent); text-decoration:none }
+img{ max-width:100%; display:block }
+button{ font:inherit }
+
+.visually-hidden{ position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px,1px,1px,1px); white-space:nowrap }

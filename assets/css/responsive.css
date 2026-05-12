@@ -1,0 +1,144 @@
+@media (min-width: 801px) {
+  .hamburger {
+    display: none !important;
+  }
+  
+  .hamburger-menu {
+    display: none !important;
+  }
+  
+  .site-nav {
+    display: flex !important;
+  }
+  
+  .desktop-cart {
+    display: inline-flex !important;
+  }
+  
+  .mobile-cart {
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .hamburger {
+    display: block !important;
+  }
+  
+  .site-nav {
+    display: none !important;
+  }
+  
+  .hamburger-menu {
+    display: none !important;
+  }
+  
+  .hamburger-menu.open {
+    display: block !important;
+  }
+  
+  .desktop-cart {
+    display: none !important;
+  }
+  
+  .mobile-cart {
+    display: inline-flex !important;
+  }
+  
+  .grid.cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .product-detail {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero {
+    flex-direction: column;
+  }
+  
+  .site-header .wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid.cols-3 {
+    grid-template-columns: 1fr;
+  }
+  
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+  
+  nav.site-nav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    display: none !important;
+  }
+  
+  .search {
+    order: 3;
+    width: 100%;
+  }
+  
+  .site-header .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+  
+  .mobile-cart {
+    order: -1;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: #f97316;
+  }
+  
+  .mobile-cart img {
+    height: 20px;
+    width: auto;
+  }
+  
+  .mobile-cart .cart-count {
+    font-size: 0.7rem;
+    padding: 0.08rem 0.35rem;
+    margin-left: 0.15rem;
+  }
+  
+  .brand {
+    flex: 1;
+    justify-content: center;
+    order: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .brand-text {
+    display: none !important;
+  }
+  
+  .hamburger {
+    order: 1 !important;
+    display: block !important;
+  }
+  
+  .hamburger-menu {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .hamburger-menu.open {
+    display: block !important;
+  }
+}
