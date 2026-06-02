@@ -4,13 +4,13 @@ declare(strict_types=1);
 final class CustomerDTO
 {
     public function __construct(
-        public readonly int $id,
-        public readonly string $firstName,
-        public readonly string $lastName,
-        public readonly string $email,
-        public readonly string $phone,
-        public readonly string $street,
-        public readonly string $city,
-        public readonly string $zip,
+        public int $id,
+        public string $firstName,
+        public string $lastName,
+        public string $email,
+        public string $phone,
+        public string $street,
+        public string $city,
+        public string $zip,
     ) {}
 }

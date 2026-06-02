@@ -4,10 +4,10 @@ declare(strict_types=1);
 final class CategoryDTO
 {
     public function __construct(
-        public readonly int $id,
-        public readonly string $name,
-        public readonly string $slug,
-        public readonly ?string $description = null,
-        public readonly ?string $image = null,
+        public int $id,
+        public string $name,
+        public string $slug,
+        public ?string $description = null,
+        public ?string $image = null,
     ) {}
 }

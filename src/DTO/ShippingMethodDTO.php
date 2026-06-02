@@ -4,10 +4,10 @@ declare(strict_types=1);
 final class ShippingMethodDTO
 {
     public function __construct(
-        public readonly int $id,
-        public readonly string $name,
-        public readonly float $price,
-        public readonly string $deliveryDays,
+        public int $id,
+        public string $name,
+        public float $price,
+        public string $deliveryDays,
     ) {}
 
     public function isFree(): bool

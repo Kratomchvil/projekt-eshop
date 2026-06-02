@@ -4,8 +4,8 @@ declare(strict_types=1);
 final class PaymentMethodDTO
 {
     public function __construct(
-        public readonly int $id,
-        public readonly string $name,
-        public readonly float $fee,
+        public int $id,
+        public string $name,
+        public float $fee,
     ) {}
 }
